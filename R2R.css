@@ -1,0 +1,1687 @@
+html, body {
+width: 100vw;
+height: 100vh;
+margin: 0;
+letter-spacing: .020em;
+line-height: 1.45em;
+font-size:16pt;
+}
+
+/*loading screen*/
+#loading {
+width: 100vw;
+height: 100vh;
+overflow-x:hidden;
+background: #fff;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 100;
+}
+
+a {
+text-decoration: none;
+color: #0f83cf; 
+}
+
+a:hover {
+text-decoration: none; 
+color: #0f83cf; 
+}
+
+a:visited {
+text-decoration: none; 
+color: #0f83cf; 
+}
+
+
+.carrot {
+width: 1%;
+}
+
+#loading_title p {
+margin-top: 2%;      
+}
+
+/*loading screen end*/
+
+#main {
+width: 100vw;
+height: 100vh;
+overflow-x:hidden;
+}
+
+#map_container {
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 300;
+width: 100vw;
+height: 82vw;
+background-image: url(Images/NSussman_AdsNative_web.svg);
+background-image: url(Images/NSussman_AdsNative_web.png);
+background-size: 100vw;
+position: relative;
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out:
+transition: all 1s ease-in-out;
+}
+
+h1 {
+font-size: 32pt;  
+margin: 0; 
+padding: 0; 
+font-weight: 300;
+}
+
+.highlight {
+width: 86.8%;
+z-index: 1;
+}
+
+.second {
+width: 100vw;
+height: 82vw;
+background-color:rgb(4, 34, 58); /* The Fallback */
+background-color:rgba(4, 34, 58, 0.9);
+display: none;
+z-index: 2;
+}
+
+.product_path {
+display: none;
+}
+
+.text {
+font-size:16pt;
+position: absolute;
+width: 20%;
+color: #fff;
+width: 28%;
+}      
+
+.imagesb {
+width: 11.5%;
+position: absolute;
+}
+
+#productpath_txt {
+position: absolute;
+top: 79.9%;
+left: 63%;
+color: #002339;
+font-size: 10pt;
+width: 23%;
+}
+
+#popup {
+font-family: "proxima-nova", "helvetica", sans-serif;
+background-color:rgb(4, 34, 58); /* The Fallback */
+background-color:rgba(4, 34, 58, 0.9);
+color: #fff;
+display:none;
+position:absolute;
+margin:0 auto;
+top: 30%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 100;
+    
+}
+
+#popup h1 {
+margin-bottom: 3%;
+margin-top: 10%;
+text-align: center;
+font-size:28pt;
+line-height: 1.3em;
+}
+
+#popup p {
+width: 80%;
+margin: 0 auto;
+}
+
+#close_popup {
+position: absolute;
+top:3%;
+left: 95%;
+width: 3%;
+    
+}
+ 
+
+/* 1. small phone portrait view */
+@media only screen and (max-width : 768px) and (orientation: portrait) {
+
+      
+#screenerror {
+font-family: "proxima-nova", "helvetica", sans-serif;
+background-color: #04223A;
+color: white;
+height: 100vh;
+width: 100vw;
+position: relative;
+}
+     
+#error_text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+width: 55%;
+display:block;
+}
+     
+    
+ /*Load screen*/
+#load_gif_graphic {
+width: 95%;
+margin-bottom: .5%;
+position: absolute;
+left:2%;
+top:10%;
+}
+    
+    
+#loading_title {
+margin: auto 0;
+text-align: center;
+margin-top: 52%;
+font-size: 20pt;    
+}
+    
+#loading_title p {
+font-family: "proxima-nova",sans-serif;
+padding-bottom:.5%;
+font-size: 10pt;
+}
+
+#logo {
+padding-bottom:.5%;
+width: 40%;
+}    
+
+#roadsloading {
+width: 30%;       
+}
+    
+ /*Load screen*/       
+    
+    
+    
+#main {
+display: none;
+}
+  
+    
+    
+    
+    
+}
+
+/* 1. phone landscape view */
+@media only screen and (max-width : 768px) and (orientation: landscape) {
+
+.second {
+width: 100vw;
+height: 82vw;
+background-color:rgb(4, 34, 58); /* The Fallback */
+background-color:rgba(4, 34, 58, 0.9);
+display: none;
+z-index: 2;
+}
+    
+.hide_elem {
+display: none;
+-webkit-transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out;
+transition: all 1s ease-in-out;
+}
+    
+.show_elem {
+display: block;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+/*Load screen*/
+#load_gif_graphic {
+width: 75%;
+margin-bottom: 2%;
+position: absolute;
+left:12%;
+top:0%;
+}
+    
+    
+#loading_title {
+margin: auto 0;
+text-align: center;
+margin-top: 28%;
+font-size: 20pt;    
+}
+    
+#loading_title p {
+font-family: "proxima-nova",sans-serif;
+padding-bottom:1%;
+font-size: 12pt;
+}
+
+#logo {
+padding-bottom:2%;
+width: 40%;
+}    
+
+#roadsloading {
+width: 30%;       
+}
+    
+    
+    
+/*    popup*/
+#popup {
+top: 35%;
+left: 50%;
+width: 55%;
+height: 50%;
+}
+    
+#popup h1 {
+font-size: 14pt;
+}
+ 
+#popup p {
+font-size: 9pt;
+line-height: 1.3em;
+}
+    
+#close_popup {
+position: absolute;
+top:4%;
+left: 92%;
+width: 1%;
+}
+    
+    
+/*popup   */
+    
+
+#screenerror {
+display: none;
+}
+    
+.imagesb {
+width: 11.5%;
+position: absolute;
+} 
+  
+    
+h1 {
+font-size: 18pt;
+margin-bottom: 4%;
+}    
+    
+.text {
+font-size: 10pt;
+width: 40%;
+}
+    
+    
+    
+    
+    
+/*map items*/
+    
+    
+#selfserve_contain {
+position: absolute;
+top: 66.29%;
+left: 7.02%;
+width: 5.9%;
+}
+    
+#selfserveb img {
+width: 5.2%;
+top: 66.7%;
+left: 7%;
+position: absolute;
+}
+
+#selfserveb_text {
+position: absolute;
+top: 50.7%;
+left: 20%;
+}    
+    
+#rtb_contain {
+position: absolute;
+top: 67.7%;
+left: 12.3%;
+width: 12.6%;
+z-index: 3;
+}
+    
+#rtbb img {
+position: absolute;
+top: 67.4%;
+left: 12.2%;
+width: 11.2%;
+z-index: 3;
+}
+
+#rtbb_text {
+position: absolute;
+top: 55%;
+left: 30%;
+}    
+  
+#waterfallandnetwork_contain {
+position: absolute;
+top: 28.6%;
+left: 10.3%;
+width: 58%;
+z-index: 1;
+}
+ 
+#waterfallandnetworkb img {
+position: absolute;
+top: 28.2%;
+left: 10.5%;
+width: 50%;
+}
+
+#waterfallandnetworkb_text {
+top: 35%;
+left: 61%;
+width: 40%;
+}
+    
+#api_contain {
+position: absolute;
+top: 32.1%;
+left: 51.3%;
+width: 10.3%;
+z-index: 2;
+}
+    
+#apib img {
+position: absolute;
+top: 32.1%;
+left: 51.3%;
+width: 9%;
+}
+
+#apib_text {
+position: absolute;
+top: 38%;
+left: 33%;
+}    
+ 
+#adserver_contain {
+position:absolute;
+top: 15.9%;
+left: 42.8%;
+width: 13%;
+}
+ 
+#adserverb img {
+position: absolute;
+width: 11.5%;
+top: 16.2%;
+left: 42.73%;
+}
+
+#adserverb_text {
+top: 17%;
+left: 58%;
+}
+       
+#privatebundle_contain {
+position: absolute;
+top: 49.6%;
+left: 56.5%;
+width: 46.4%;
+}
+ 
+#privatebundleb img {
+position: absolute;
+top: 49.6%;
+left: 56.7%;
+width: 40.2%;
+}
+
+#privatebundleb_text {
+top: 30%;
+left: 10%;
+}
+    
+#whitelabelbun_contain {
+position: absolute;
+width: 38%;
+top: 10.2%;
+left: 63.3%;
+}
+ 
+#whitelabelbunb img {
+position: absolute;
+width: 33.5%;
+top: 10.2%;
+left: 62.93%;
+}
+
+#whitelabelbunb_text {
+top: 15%;
+left: 15%;
+}    
+        
+forecast_contain {
+opacity: 0;
+position: absolute;
+top: -1.7%;
+left: -1.2%;
+width: 43%;
+height: 28%;
+}
+    
+#forecastb img {
+width: 42.7%;
+top: -1.89%;
+left: -1.2%;
+position: absolute;
+ }
+
+#forecastb_text {
+position: absolute;
+top: 27%;
+left: 5%;
+width: 30%;
+}    
+
+#unicorn_contain {
+position: absolute;
+top: 43.5%;
+left: 54.2%;
+width: 6.5%;
+z-index: 2;
+}
+     
+#unicornb img {
+position: absolute;
+top: 45.2%;
+left: 54.89%;
+width: 4.35%;
+}
+
+/*Product Paths*/
+
+#demand_button {
+top: 80.88%;
+left: 62.4%;
+position: absolute;
+width: 13.902%;
+z-index: 2;
+}   
+    
+#demand_path{
+width: 91.6%;
+top: 25%;
+left: 5.4%;
+position: absolute; 
+}     
+    
+#enterprise_button {
+top: 81%;
+left: 75.1%;
+position: absolute;
+width: 11.4%;
+z-index: 2;
+}   
+    
+#enterprise_path{
+top: 0%;
+left: 0%;
+position: absolute;  
+width: 100%;
+}   
+     
+#demand_description, #enterprise_description {
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 500;
+position: absolute;
+top: 87.7%;
+left: 60%;
+width: 30%;
+ display: none;
+line-height: 1.4em;
+font-size: 4pt;
+}
+    
+}       
+
+/* 2. small tablet view */
+@media screen and (min-width: 768px) {
+ 
+/*Load screen*/
+#load_gif_graphic {
+width: 70%;
+margin-bottom: 2%;
+position: absolute;
+left:15%;
+top:8%;
+}
+    
+    
+#loading_title {
+margin: auto 0;
+text-align: center;
+margin-top: 35%;
+font-size: 20pt;    
+}
+    
+#loading_title p {
+padding-bottom:1%;
+font-size: 16pt;
+}
+
+#logo {
+padding-bottom:2%;
+width: 30%;
+}    
+
+#roadsloading {
+width: 30%;       
+}        
+    
+/*Load screen End*/
+    
+    
+/*Pop-Up*/
+     
+#popup {
+top: 50%;
+left: 50%;
+width: 60%;
+height: 60%;
+}
+    
+#popup h1 {
+font-size: 26pt;
+}    
+      
+  
+/*End Pop-Up*/
+    
+
+    
+.first  {
+z-index: 1;
+position: absolute;
+}   
+
+.second {
+z-index: 5;
+position: absolute;
+}    
+
+    
+h1 {
+font-size: 24pt;
+}
+  
+
+.text {
+width: 40%;
+font-size: 13pt;
+line-height: 1.4em;
+}
+
+    
+.highlight {
+opacity: 0;
+-webkit-transition: opacity 1s ease;
+-moz-transition: opacity 1s ease;
+-o-transition: opacity 1s ease;
+transition: opacity 1s ease;
+width: 86.8%;
+z-index: 1;
+}
+
+.highlight:hover {
+opacity: 100;
+}    
+    
+#adserver_contain {
+position: absolute;
+top: 15.9%;
+left: 42.8%;
+width: 13%;
+}
+ 
+#adserverb img {
+position: absolute;
+width: 11.5%;
+top: 16.2%;
+left: 42.73%;
+}
+
+#adserverb_text {
+top: 17%;
+left: 58%;
+}
+
+#waterfall_contain {
+position: absolute;
+top: 30.7%;
+left: 39.1%;
+width: 21.5%;
+}
+
+#waterfallb img {
+width: 18.69%;
+top: 30.6%;
+left: 39.1%;
+position: absolute;
+}
+
+#waterfallb_text {
+position: absolute;
+top: 30%;
+left: 58%;
+} 
+    
+#forecast_contain {
+opacity: 0;
+position: absolute;
+top: -1.7%;
+left: -1.2%;
+width: 43%;
+height: 28%;
+-webkit-transition: opacity 1s ease;
+-moz-transition: opacity 1s ease;
+ -o-transition: opacity 1s ease;
+ transition: opacity 1s ease;
+}
+ 
+#forecast_contain:hover {
+background: url(Images/forecast_roll.png) no-repeat;
+background-size: 70%;
+display: block;
+width: 61%;
+opacity: 100;
+} 
+    
+#forecastb img {
+width: 42.39%;
+top: -1.8%;
+left: -1%;
+position: absolute;
+}
+
+#forecastb_text {
+position: absolute;
+top: 27%;
+left: 5%;
+width: 30%;
+}
+
+#selfserve_contain {
+position: absolute;
+top: 66.7%;
+left: 7.02%;
+width: 5.9%;
+}
+    
+#selfserveb img {
+width: 5.2%;
+top: 66.62%;
+left: 7.01%;
+position: absolute;
+}
+
+#selfserveb_text {
+position: absolute;
+top: 67.7%;
+left: 14%;
+width: 32%;
+}
+    
+#network1_contain {
+position: absolute;
+top: 77.49%;
+left: 15%;
+width: 12.4%;
+}
+    
+#network1b img {
+position: absolute;
+top: 77.49%;
+left: 14.8%;
+width: 11%;
+}
+
+#network1b_text {
+position: absolute;
+top: 60%;
+left: 30%;
+}
+   
+#network2_contain {
+position: absolute;
+top: 75.8%;
+left: 24.6%;
+width: 13.8%;
+}
+    
+#network2b img {
+position: absolute;
+top: 75.7%;
+left: 24.6%;
+width: 11.9%;
+}
+
+#network2b_text {
+position: absolute;
+top: 78%;
+left: 37%;
+}
+    
+#network3_contain {
+position: absolute;
+top: 74%;
+left: 35%;
+width: 14.6%;
+}
+    
+#network3b img {
+position: absolute;
+top: 74%;
+left: 35%;
+width: 12.7%;
+}
+
+#network3b_text {
+position: absolute;
+top: 72%;
+left: 49%;
+}
+  
+#dspdeal_contain {
+position: absolute;
+top: 50.17%;
+left: 82.89%;
+width: 14.99%;
+}
+    
+#dspdealb img {
+position: absolute;
+top: 50%;
+left: 82.8%;
+width: 13.15%;
+}
+
+#dspdealb_text {
+position: absolute;
+top: 50%;
+left: 43%;
+}
+   
+#whitel_contain {
+position: absolute;
+top: 11.3%;
+left:72.7%;
+width: 19.2%;
+z-index: 3;
+}
+    
+#whitelb img {
+position: absolute;
+top: 11.1%;
+left:72.6%;
+width: 16.8%;
+}
+
+#whitelb_text {
+position: absolute;
+top: 15%;
+left: 37%;
+}
+
+#pmarket_contain {
+position: absolute;
+top: 60.2%;
+left: 56.6%;
+width: 29.1%;
+height: 20%;
+}
+    
+#pmarket_contain img {
+width: 100%;
+}    
+    
+#pmarketb img {
+position: absolute;
+top: 60.1%;
+left: 56.5%;
+width: 29.3%;
+}
+
+#pmarketb_text {
+position: absolute;
+top: 58%;
+left: 14%;
+}
+
+#rtb_contain {
+position: absolute;
+top: 67.8%;
+left: 12.4%;
+width: 12.6%;
+}
+    
+#rtbb img {
+position: absolute;
+top: 67.7%;
+left: 12.2%;
+width: 11.2%;
+}
+
+#rtbb_text {
+position: absolute;
+top: 67%;
+left: 25%;
+}
+
+#targetingt_contain {
+position: absolute;
+top: 51.3%;
+left: 12.6%;
+width: 10.9%;
+}
+    
+#targetingtb img {
+position: absolute;
+top: 51.2%;
+left: 12.6%;
+width: 9.5%;
+}
+
+#targetingtb_text {
+position: absolute;
+top: 52%;
+left: 24%;
+}    
+  
+#forestf_contain {
+position: absolute;
+top: 51.6%;
+left: 23.1%;
+width: 19.8%;
+}
+    
+#forestfb img {
+position: absolute;
+top: 51.6%;
+left: 23.16%;
+width: 17.2%;
+}
+
+#forestfb_text {
+position: absolute;
+top: 60%;
+left: 42%;
+}     
+    
+#latencyl_contain {
+position: absolute;
+top: 39.9%;
+left: 12.1%;
+width: 13.4%;
+}
+    
+#latencylb img {
+position: absolute;
+top: 39.8%;
+left: 12.1%;
+width: 11.8%;
+}
+
+#latencylb_text {
+position: absolute;
+top: 44%;
+left: 25%;
+}         
+    
+#soicals_contain {
+position: absolute;
+top: 37.6%;
+left: 4.7%;
+width: 12.3%;
+}
+    
+#soicalsb img {
+position: absolute;
+top: 37.5%;
+left: 4.6%;
+width: 10.8%;
+}
+
+#soicalsb_text {
+position: absolute;
+top: 38%;
+left: 16%;
+}     
+        
+#dsbridge_contain {
+position: absolute;
+top: 31.2%;
+left: 65%;
+width: 21.4%;
+}
+    
+#dsbridgeb img {
+position: absolute;
+top: 31.1%;
+left: 65%;
+width: 18.6%;
+}
+
+#dsbridgeb_text {
+position: absolute;
+top: 42%;
+left: 26%;
+}
+    
+#sfish_contain {
+position: absolute;
+top: 37%;
+left: 71.7%;
+width: 14%;
+}
+    
+#sfishb img {
+position: absolute;
+top: 36.8%;
+left: 71.5%;
+width: 12.4%;
+}
+
+#sfishb_text {
+position: absolute;
+top: 37%;
+left: 40%;
+}    
+        
+#api_contain {
+position: absolute;
+top: 32.1%;
+left: 51.3%;
+width: 10.3%;
+}
+    
+#apib img {
+position: absolute;
+top: 32.1%;
+left: 51.3%;
+width: 9%;
+}
+
+#apib_text {
+position: absolute;
+top: 38%;
+left: 33%;
+}    
+ 
+#ios_contain {
+position: absolute;
+top: 24%;
+left: 87.7%;
+width: 7.5%;
+z-index: 3;
+}
+    
+#iosb img {
+position: absolute;
+top: 24%;
+left: 87.6%;
+width: 6.5%;
+}
+
+#iosb_text {
+position: absolute;
+top: 25%;
+left: 50%;
+}      
+
+#rfp_contain {
+position: absolute;
+top: 26.3%;
+left: 90%;
+width: 6.7%;
+z-index: 4;
+}
+    
+#rfpb img {
+position: absolute;
+top: 26.2%;
+left: 89.9%;
+width: 6%;
+}
+
+#rfpb_text {
+position: absolute;
+top: 27%;
+left: 59%;
+}     
+   
+#mmanor_contain {
+position: absolute;
+top: 20.7%;
+left: 35.8%;
+width: 8.8%;
+}
+    
+#mmanorb img {
+position: absolute;
+top: 20.8%;
+left: 35.9%;
+width: 7.5%;
+}
+
+#mmanorb_text {
+position: absolute;
+top: 20%;
+left: 45%;
+}       
+  
+#palacep_contain {
+position: absolute;
+top: 7.8%;
+left: 46.3%;
+width: 6.8%;
+}
+    
+#palacepb img {
+position: absolute;
+top: 7.6%;
+left: 46.2%;
+width: 6%;
+}
+
+#palacepb_text {
+position: absolute;
+top: 27%;
+left: 35%;
+}       
+     
+#thirdpss_contain {
+position: absolute;
+top: 56%;
+left: 80.3%;
+width: 9.2%;
+}
+    
+#thirdpssb img {
+position: absolute;
+top: 55.8%;
+left: 80.3%;
+width: 8.2%;
+    }
+
+#thirdpssb_text {
+position: absolute;
+top: 54%;
+left:40%;
+}      
+    
+#wselfs_contain {
+position: absolute;
+top: 30.9%;
+left: 82.9%;
+width: 13.2%;
+z-index: 3;
+}
+    
+#wselfsb img {
+position: absolute;
+top: 30.6%;
+left: 82.7%;
+width: 11.8%;
+}
+
+#wselfsb_text {
+position: absolute;
+top: 35%;
+left: 45%;
+}  
+    
+#abraccon_contain {
+position: absolute;
+top: 52.4%;
+left: 33.8%;
+width: 6.7%;
+}
+    
+#abracconb img {
+position: absolute;
+top: 52.3%;
+left: 33.88%;
+width: 5.8%;
+}
+
+#abracconb_text {
+position: absolute;
+top: 51%;
+left: 42%;
+}     
+    
+#abbirds_contain {
+position: absolute;
+top: 42.7%;
+left: 27.1%;
+width: 7%;
+}
+    
+#abbirdsb img {
+position: absolute;
+top: 42.6%;
+left: 27%;
+width: 6.2%;
+}
+
+#abbirdsb_text {
+position: absolute;
+top: 42%;
+left: 35%;
+}    
+    
+#tuser_contain {
+position: absolute;
+top: 54.2%;
+left: 42.8%;
+width: 8.7%;
+}
+    
+#tuserb img {
+position: absolute;
+top: 54.2%;
+left: 42.8%;
+width: 7.5%;
+}
+
+#tuserb_text {
+position: absolute;
+top: 56%;
+left: 13%;
+}    
+    
+#trade_contain {
+position: absolute;
+top: 0.1%;
+left: 53.8%;
+width: 51%;
+height: 25%;
+z-index: 2;
+}
+    
+#trade_contain img {
+width: 90%;
+}
+    
+#tradeb img {
+position: absolute;
+top: 0%;
+left: 53.2%;
+width: 47%;
+}
+    
+#tradeb_text {
+position: absolute;
+top: 15%;
+left: 50%;
+}    
+    
+#atd_contain {
+position: absolute;
+top: 21.3%;
+left: 65.3%;
+width: 12.6%;
+}
+    
+#atdb img {
+position: absolute;
+top: 21.2%;
+left: 65.1%;
+width: 11.2%;
+}
+    
+#atdb_text {
+position: absolute;
+top: 26%;
+left: 38%;
+}       
+    
+#cashc_contain {
+position: absolute;
+top: 31.3%;
+left: 32.5%;
+width: 4.5%;
+}
+    
+#cashcb img {
+position: absolute;
+top: 31.3%;
+left: 32.45%;
+width: 3.9%;
+}
+    
+#cashcb_text {
+position: absolute;
+top: 33%;
+left: 38%;
+}        
+    
+    
+#unicorn_contain {
+position: absolute;
+top: 44.8%;
+left: 54.42%;
+width: 6.2%;
+z-index: 2;
+}
+     
+#unicornb img {
+position: absolute;
+top: 45.3%;
+left: 54.9%;
+width: 4.3%;
+}
+    
+/*Product Paths*/
+
+#demand_button {
+top: 80.88%;
+left: 62.4%;
+position: absolute;
+width: 13.902%;
+z-index: 2;
+}   
+    
+#demand_path{
+width: 91.6%;
+top: 25%;
+left: 5.4%;
+position: absolute; 
+}     
+    
+#enterprise_button {
+top: 81%;
+left: 75.1%;
+position: absolute;
+width: 11.4%;
+z-index: 2;
+}   
+    
+#enterprise_path{
+top: 0%;
+left: 0%;
+position: absolute;  
+width: 100%;
+}   
+     
+#demand_description, #enterprise_description {
+font-family: "proxima-nova",sans-serif;
+font-style: normal;
+font-weight: 500;
+position: absolute;
+top: 87.5%;
+left: 60%;
+width: 30%;
+ display: none;
+line-height: 1.4em;
+font-size: 6pt;
+}
+    
+}
+    
+/* 3. Landscape tablet view */
+@media only screen and (min-width: 1024px) {
+
+/*Load screen*/
+    
+/*Load screen*/
+#load_gif_graphic {
+width: 70%;
+margin-bottom: 2%;
+position: absolute;
+left:15%;
+top:0%;
+}
+    
+    
+#loading_title {
+margin: auto 0;
+text-align: center;
+margin-top: 30%;
+font-size: 20pt;    
+}
+    
+#loading_title p {
+padding-bottom:1%;
+font-size: 16pt;
+}
+
+#logo {
+padding-bottom:2%;
+width: 30%;
+}    
+
+#roadsloading {
+width: 30%;       
+}        
+    
+/*Load screen End*/
+     
+/*pop */
+#popup {
+top: 45%;
+left: 50%;
+width: 45%;
+height: 45%;
+}  
+    
+    
+#popup h1 {
+font-size: 26pt;
+}    
+         
+    
+/*pop */    
+    
+    
+.text {
+width: 30%;
+font-size:14pt;
+}
+    
+h1 {
+font-size: 26pt;
+}
+    
+#whitelb_text {
+position: absolute;
+top: 22%;
+left: 41%;
+}
+
+#pmarketb_text {
+position: absolute;
+top: 60%;
+left: 25%;
+}
+ 
+#palacepb_text {
+position: absolute;
+top: 22%;
+left: 43%;
+} 
+    
+#sfishb_text {
+position: absolute;
+top: 37%;
+left: 46%;
+}  
+
+#network1b_text {
+position: absolute;
+top: 65%;
+left: 30%;
+}
+
+#dsbridgeb_text {
+position: absolute;
+top: 28%;
+left: 30%;
+}
+
+#wselfsb_text {
+position: absolute;
+top: 35%;
+left: 53%;
+}  
+    
+#dspdealb_text {
+position: absolute;
+top: 50%;
+left: 53%;
+}
+
+#apib_text {
+position: absolute;
+top: 40%;
+left: 40%;
+}
+    
+#atdb_text {
+position: absolute;
+top: 30%;
+left: 50%;
+}
+    
+#demand_description, #enterprise_description {
+font-weight: 500;
+position: absolute;
+top: 87.5%;
+left: 60%;
+width: 30%;
+display: none;
+line-height: 1.4em;
+font-size: 8pt;
+}
+    
+}
+      
+/* 3. Large Desktop view */
+@media screen and (min-width: 1366px) {
+
+
+#loading_title {
+margin: auto 0;
+text-align: center;
+margin-top: 21%;
+font-size: 26pt;    
+}
+
+    
+#load_gif_graphic  {
+width: 43%;
+margin-bottom: 2%;
+position: absolute;
+left:28.2%;
+top:7%;
+text-align: center;
+z-index: -1;
+}
+
+
+#roadsloading {
+width: 25%;       
+}
+
+    
+#logo {
+width: 20%
+}
+/*Load screen*/
+
+    
+/*    popup*/
+#popup {
+top: 35%;
+left: 50%;
+width: 35%;
+height: 30%;
+} 
+    
+#popup h1 {
+font-size: 26pt;
+}    
+        
+/*    popup*/       
+     
+    
+.text {
+width: 28%;
+font-size: 16pt;
+}  
+    
+h1 {
+font-family: 36pt; 
+margin-bottom: 3%;
+
+}
+ 
+#waterfallb_text {
+position: absolute;
+top: 30%;
+left: 58%;
+} 
+    
+#thirdpssb_text {
+position: absolute;
+top: 56%;
+left: 45%;
+} 
+
+#dspdealb_text {
+position: absolute;
+top: 50%;
+left: 50%;
+}
+    
+#wselfsb_text {
+position: absolute;
+top: 35%;
+left: 53%;
+} 
+    
+#network1b_text {
+position: absolute;
+top: 73%;
+left: 28%;
+}
+    
+#apib_text {
+position: absolute;
+top: 30%;
+left: 23%;
+}  
+    
+#pmarketb_text {
+position: absolute;
+top: 59%;
+left: 25%;
+}
+
+#dspdealb_text {
+position: absolute;
+top: 55%;
+left: 55%;
+}
+    
+#wselfsb_text {
+position: absolute;
+top: 35%;
+left: 56%;  
+}
+
+#iosb_text {
+position: absolute;
+top: 27%;
+left: 66%;
+}
+
+#palacepb_text {
+position: absolute;
+top: 24%;
+left: 43%;
+}
+
+#dsbridgeb_text {
+position: absolute;
+top: 29%;
+left: 39%;
+}
+
+#whitelb_text {
+position: absolute;
+top: 18%;
+left: 42%;
+}  
+
+thirdpssb_text {
+position: absolute;
+top: 56%;
+left: 57%;
+}
+    
+#forestfb_text {
+position: absolute;
+top: 57%;
+left: 42%;
+}  
+    
+#demand_description, #enterprise_description {
+font-weight: 500;
+position: absolute;
+top: 87.5%;
+left: 60%;
+width: 30%;
+display: none;
+line-height: 1.4em;
+font-size: 10pt;
+}
+
+}
+    
+/* 3. X-Large Desktop view */
+@media screen and (min-width: 1600px) {
+
+#demand_description, #enterprise_description {   
+font-weight: 500;
+position: absolute;
+top: 87.5%;
+left: 60%;
+width: 30%;
+display: none;
+line-height: 1.4em;
+font-size: 12pt;
+}
+    
+    
+/*pop */
+#popup {
+top: 30%;
+left: 50%;
+width: 28%;
+height: 25%;
+}  
+    
+    
+#popup h1 {
+font-size: 32pt;
+}    
+          
+    
+/*pop */        
+    
+}
+    

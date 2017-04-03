@@ -1,0 +1,41 @@
+html, body {
+width: 100vw;
+height: 100vh;
+margin: 0;
+}
+   
+.pre-loader {
+width: 100vw;
+height: 100vh;
+overflow-x:hidden;
+background: #fff;
+font-family:"Gotham SSm A","Gotham SSm B",sans-serif;
+}
+
+#title {
+margin: auto 0;
+text-align: center;
+margin-top: 21%;
+font-size: 26pt;    
+}
+
+#title p {
+margin-top: 1%;      
+}
+
+#graphic {
+text-align: center;
+z-index: -1;
+}
+
+#graphic img {
+width: 43%;
+margin-bottom: 2%;
+position: absolute;
+left:28.2%;
+top:7%;
+}
+
+
+
+

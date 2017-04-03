@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="mobile.css">
+	
+<!--Font Hosting Script --> 	 
+<script src="https://use.typekit.net/wbi6xzq.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<!--Font Hosting Script End --> 
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- JQM Structure -->  
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile.structure-1.0.1.min.css"></link> 
+<!-- JQ Core -->  
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>  
+    
+    
+<script type="text/javascript">
+$(window).load(function() {
+	$("#loading").fadeOut("slow");
+})
+</script>
+
+<!--
+<script type="text/javascript">
+
+if (screen.width >=768) {
+document.location = "index.html";
+}
+//
+</script>
+-->
+
+<script src="mobile_togg.js"></script>
+<script src="path_toggle.js"></script>
+<script src="css-pop.js"></script>
+<script src="descript_toggle.js"></script>
+
+
+<title>AdsNative: Roads to Revenue</title>
+<link rel="stylesheet" href="R2R.css">
+</head>
+
+
+
+<body> 
+ 
+<!---small screen error--->
+<div id="screenerror">
+<div id="error_text">
+<h1>Oh No!</h1>
+<p>Please turn your phone for the best experience of our Roads to Revenue map</p>  
+</div> 
+</div>
+
+<!---loading--->
+<div id="loading">
+
+<div><img id="load_gif_graphic" src="Images/loading/loading.gif"></div>
+
+<div id="loading_title">
+<img id="logo" src="Images/loading/logo.png"> 
+<br>  
+<img id="roadsloading" src="Images/loading/road.png">   
+<p>Your treasure awaits</p>    
+    
+</div>
+</div> 
+<!---loading--->
+
+
+<div id="main"> <!---Start--->
+
+<div style="background-image: url(Images/moblie/NSussman_AdsNative_web.png);" class="map_container"> 
+
+<div id="popup" >
+
+<h1>Welcome to AdsNative’s <br> Roads To Revenue</h1>
+
+<p>Hover over our products roads to explore the routes to land yourself at Mount Monetization. Want to explore? Follow the twists and turns of the map and click on each term to discover more.</p>
+
+<a id="close"><img id="close_popup"  style="width:5%; "src="Images/popup/thex.png"></a>
+</div>
+
+
+
+
+ <!---Self S--->
+<div class="toggleElements">
+<div class="first" id="selfserve_contain">
+<div><img class="highlight" src="Images/selfserve_roll.png"></div>
+</div>
+   
+<div class="second" id="selfserveb">
+<img class="img-responsive imagesb"   src="Images/selfserve.png">
+<div class="text" id="selfserveb_text"><h1>Self-Serve</h1><p>
+Your advertisers, brands and agencies sail on the USS Self Serve, a complete console for buyers </p></div>  
+</div> 
+</div>
+
+
+<!---Self S End--->
+
+
+<!---RTB--->
+<div class="toggleElements">
+<div class="first" id="rtb_contain">
+<div><img class="highlight" src="Images/rtb_roll.png"></div>
+</div>
+   
+<div class="second" id="rtbb">
+<img class="img-responsive imagesb"   src="Images/rtb.png">
+<div class="text" id="rtbb_text"><h1>RTB</h1><p>
+All aboard! Purchase advertising inventory
+ and sell on a per-impression basis in real-time</p></div>  
+</div> 
+</div>
+
+<!---RTB End--->
+
+
+<!--Waterfall & Networks--->
+<div class="toggleElements">
+<div class="first" id="waterfallandnetwork_contain">
+<div><img class="highlight" src="Images/moblie/waterfallnetworks_roll.png"></div>
+</div>
+   
+<div class="second" id="waterfallandnetworkb">
+<img class="img-responsive imagesb"  src="Images/moblie/waterfallnetworks.png">
+<div class="text" id="waterfallandnetworkb_text"><h1>Monetization Waterfall &amp; Networks</h1><p>
+All aboard! Purchase advertising inventory
+ and sell on a per-impression basis in real-time</p></div>  
+</div>
+</div>
+ <!---Waterfall & Networks End--->
+
+
+
+<div class="toggleElements">
+<div class="first" id="api_contain">
+<div><img class="highlight" src="Images/api_roll.png"></div>
+</div>
+   
+<div class="second" id="apib">
+<img class="img-responsive imagesb"   src="Images/api.png">
+<div class="text" id="apib_text"><h1>API</h1><p>
+Watch your head as you enter the warehouse of routines, protocols and tools for building software applications</p></div>  
+</div> 
+</div>
+
+
+<!---Adserver-->
+<div class="toggleElements">
+<div class="first" id="adserver_contain">
+<div><img class="highlight" src="Images/aserver_roll.png"></div>
+</div>
+   
+<div class="second" id="adserverb">
+<img class="img-responsive imagesb"   src="Images/aserver.png">
+<div class="text" id="adserverb_text"><h1>Adserver</h1><p>
+Watch your head as you enter the warehouse of routines, protocols and tools for building software applications</p></div>  
+</div> 
+</div>
+
+<!---Adserver End--->
+
+
+<div class="toggleElements">  <!---Private Bundle--->
+<div class="first" id="privatebundle_contain">
+<div><img class="highlight"  src="Images/moblie/privatebundle_roll.png"></div>
+</div>
+   
+<div class="second" id="privatebundleb">
+<img class="img-responsive imagesb"  src="Images/moblie/privatebundle.png">
+<div class="text" id="privatebundleb_text"><h1>Private Marketplace</h1><p>
+We built our ad server from the ground up to support the needs of today's modern publishers and app developers. Our customers trust our ad serving stack to create, manage, and monetize responsive native ad experiences across desktop, tablet, and mobile devices. </p></div>  
+</div> 
+</div> <!---Private Bundle End--->
+
+
+
+<div class="toggleElements">  <!---White Label--->
+<div class="first" id="whitelabelbun_contain">
+<div id="adserver"><img class="highlight"  src="Images/moblie/whitelabel_roll.png"></div>
+</div>
+   
+<div class="second" id="whitelabelbunb">
+<img class="img-responsive imagesb"  src="Images/moblie/whitelabel.png">
+<div class="text" id="whitelabelbunb_text"><h1>White Label</h1><p>
+We built our ad server from the ground up to support the needs of today's modern publishers and app developers. Our customers trust our ad serving stack to create, manage, and monetize responsive native ad experiences across desktop, tablet, and mobile devices. </p></div>  
+</div> 
+</div> <!---White Label End--->
+
+
+<div class="toggleElements">  <!---Forecast--->
+<div class="first" id="forecast_contain">
+<div id="forecast"><img class="highlight size" src="Images/forecast_roll.png"></div>
+</div>
+   
+<div class="second" id="forecastb">
+<img class="img-responsive imagesb"   src="Images/forecast.png">
+<div class="text" id="forecastb_text"><h1>Revenue Forecast</h1><p>
+The wizarding world of deciphering and predicting revenue growth</p></div>  
+</div> 
+
+
+</div> <!---Forecast End--->
+
+<div class="toggleElements">  <!---Unicorn--->
+<div class="first" id="unicorn_contain">
+<div><img class="highlight" src="Images/unicorn.png"></div>
+</div>
+   
+<div class="second" style="background:none" id="unicornb">
+<img class="img-responsive imagesb" src="Images/unicorn_roll.png">
+<div class="text"></div>  
+</div> 
+
+</div>  <!---Unicorn--->
+
+
+
+
+<!--Product Paths---->
+
+
+<div class="togglebutton">  <!---Demand--->
+
+<div class="product_button" id="demand_button">
+<img class="highlight button" src="Images/moblie/buttonplaceholder.png">
+</div>
+
+<div class="product_path" id="demand_path">
+<img class="img-responsive" src="Images/dmanagerpath.png">  
+</div>
+
+
+<div id="demand_description" class="product_desc">
+Manage all your demand on one platform. Open up to our marketplace of programmatic buyers for more demand. We provide a direct connection between publishers and buyers without the exchange tax so you keep all of the revenue.  <a href="#">Learn More <img class="carrot" src="Images/carrot_link.png"></a>   
+    
+    
+</div>
+</div> <!---DemandEnd--->
+
+<div class="togglebutton">  <!---Enterprise--->
+
+<div class="product_button">
+<div id="enterprise_button">
+<img class="highlight button" src="Images/moblie/buttonplaceholder.png">
+</div>
+</div>
+
+<div class="product_path">
+<div id="enterprise_path">
+<img class="img-responsive" src="Images/enterprisepath.png">  
+</div> 
+
+<div id="enterprise_description" class="product_desc">
+The tools you need to create, sell, manage and service your own advertising business. Developer friendly and demand agnostic, our Enterprise allows for direct selling and immediate access to our programmatic demand sources.  <a href="#">Learn More <img class="carrot" src="Images/carrot_link.png"></a>  
+</div>
+</div> <!---EnterpriseEnd--->
+
+<!--Product Paths End---->
+
+
+</div>
+
+</div>
